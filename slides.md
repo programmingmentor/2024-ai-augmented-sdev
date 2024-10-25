@@ -270,9 +270,12 @@ backgroundSize: contain
 # Де ми зараз?
 
 <style>
-h1 {
-  color: black;
-}
+  h1 {
+    color: black;
+  }
+  .slidev-layout {
+    background-color: white;
+  }
 </style>
 
 ---
@@ -284,9 +287,12 @@ backgroundSize: contain
 # А якщо розбити на етапи?
 
 <style>
-h1 {
-  color: black;
-}
+  h1 {
+    color: black;
+  }
+  .slidev-layout {
+    background-color: white;
+  }
 </style>
 
 ---
@@ -391,6 +397,76 @@ title: Cursor IDE
 layout: center
 ---
 
+# Переваги Cursor IDE
+
+<v-clicks>
+
+- Вбудований AI-асистент на базі GPT-4
+- Генерація коду та рефакторинг за допомогою AI
+- Інтелектуальне автодоповнення коду
+- Пояснення та документування коду
+- Швидкий пошук та навігація по кодовій базі
+- Інтеграція з популярними системами контролю версій
+- Підтримка багатьох мов програмування
+- Безкоштовний для особистого використання
+
+</v-clicks>
+
+---
+layout: image
+image: /cursor-ide-codegen.gif
+backgroundSize: contain
+title: Cursor IDE Code Generation
+---
+
+---
+layout: center
+---
+
+# А як зробити красиво?
+
+---
+layout: image
+image: /v0-dev.gif
+backgroundSize: contain
+title: v0.dev
+---
+
+<!--
+https://v0.dev/chat/90t1YNyiuqQ?b=b_tECxpRUgJb8
+-->
+
+---
+layout: center
+---
+
+# Хто любить Code Reviews?
+
+<v-click>
+  CodeRabbit
+</v-click>
+
+---
+layout: image
+image: /coderabbit.gif
+backgroundSize: contain
+title: CodeRabbit
+---
+
+---
+layout: center
+---
+
+# Хто любить писати тести?
+
+<v-click>
+  AI
+</v-click>
+
+---
+layout: center
+---
+
 # Агенти
 
 ---
@@ -408,6 +484,20 @@ title: Software Agents with Rivet
 ---
 
 ---
+layout: image
+image: /openai-swarm.png
+backgroundSize: contain
+title: OpenAI Swarm
+---
+
+---
+layout: image
+image: /anthropic-computer-use.png
+backgroundSize: contain
+title: Anthropic Computer Use
+---
+
+---
 layout: center
 ---
 
@@ -421,10 +511,17 @@ title: SWE Bench
 ---
 
 ---
+layout: image
+image: /bolt.new.gif
+backgroundSize: contain
+title: Bolt.new
+---
+
+---
 layout: center
 ---
 
-# Найближче майбутнє
+# Ефект чорного лебедя
 
 ---
 layout: image
@@ -439,10 +536,70 @@ layout: center
 
 # Assisted vs Augmented
 
+<div class="grid grid-cols-2 gap-4">
+  <div>
+    <h2 class="text-2xl font-bold mb-4">AI Assisted</h2>
+    <ul class="list-disc list-inside">
+      <li>AI як інструмент підтримки</li>
+      <li>Розробник контролює процес</li>
+      <li>AI генерує код за запитом</li>
+      <li>Обмежена автономність AI</li>
+      <li>Фокус на окремих завданнях</li>
+    </ul>
+  </div>
+  <div>
+    <h2 class="text-2xl font-bold mb-4">AI Augmented</h2>
+    <ul class="list-disc list-inside">
+      <li>AI як активний партнер</li>
+      <li>Співпраця людини та AI</li>
+      <li>AI пропонує рішення проактивно</li>
+      <li>Висока автономність AI</li>
+      <li>Комплексний підхід до розробки</li>
+    </ul>
+  </div>
+</div>
+
 ---
 
 # Software Engineer 3.0
 
 <div class="absolute inset-0 flex justify-center items-center">
-  <div class="text-9xl font-bold">AI-Augmented</div>
+  <div class="text-8xl font-bold">AI-Augmented SWE</div>
+</div>
+
+---
+layout: image
+image: /ai-adoption-0-100-detailed.png
+backgroundSize: contain
+---
+
+# То де ми зараз?
+
+<style>
+h1 {
+  color: black;
+}
+.slidev-layout {
+  background-color: white;
+}
+</style>
+
+<v-click>
+  <div
+      v-motion
+      :initial="{ y: 260, x: -450, opacity: 1 }"
+      :enter="{ y: 0, x: 0, opacity: 1, transition: { delay: 0, duration: 30000 } }"
+      class="absolute top-[110px] left-3/5 transform -translate-x-1/2">
+    <div class="text-6xl text-red-500">↓</div>
+  </div>
+</v-click>
+
+---
+layout: end
+---
+
+# Дякую за увагу!
+
+<div class="flex justify-center w-full h-30 items-center">
+  <img src="/slides-qr.png" class="w-25 h-25"/>
 </div>
