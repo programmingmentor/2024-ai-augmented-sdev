@@ -135,8 +135,8 @@ backgroundSize: contain
 title: Timeline of Tech 2000
 ---
 
+---
 layout: center
-
 ---
 
 # Це не зараз все швидко розвивається, це раніше все відбувалося повільно
@@ -378,6 +378,13 @@ layout: image
 image: /ms-ai-improves-ai.gif
 backgroundSize: contain
 title: MS Copilot Optimization
+---
+
+---
+layout: image
+image: /cursor-ide.png
+backgroundSize: contain
+title: Cursor IDE
 ---
 
 ---
