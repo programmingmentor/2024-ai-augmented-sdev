@@ -375,7 +375,7 @@ title: Copilot in GitHub
 
 ---
 layout: image
-image: /ms-ai-improves-ai.png
+image: /ms-ai-improves-ai.gif
 backgroundSize: contain
 title: MS Copilot Optimization
 ---
