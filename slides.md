@@ -70,7 +70,7 @@ image: /vyacheslav-koldovskyy.png
 - 20+ років в IT
 - SoftServe Academy Competence Manager
 - Certified Google Cloud Professional Architect
-- Ентузіаст Генеративного AI
+- Ентузіаст Практичного AI
 - Ютубер: [youtube.com/@programmingmentorua](https://www.youtube.com/@programmingmentorua)
 - Блогер: [t.me/programmingmentor](https://t.me/programmingmentor)
 - Лінкедін: [koldovsky](https://www.linkedin.com/in/koldovsky/)
