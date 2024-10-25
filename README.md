@@ -1,3 +1,5 @@
+# Slides live at [https://programmingmentor.github.io/2024-ai-augmented-sdev/](https://programmingmentor.github.io/2024-ai-augmented-sdev/)
+
 # Welcome to [Slidev](https://github.com/slidevjs/slidev)!
 
 To start the slide show:

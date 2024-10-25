@@ -32,14 +32,13 @@ overviewSnapshots: true
   </span>
 </div>
 
-<div class="abs-br m-6 flex gap-2">
-  <button @click="$slidev.nav.openInEditor()" title="Open in Editor" class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon:edit />
-  </button>
-  <a href="https://github.com/slidevjs/slidev" target="_blank" alt="GitHub" title="Open in GitHub"
-    class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
-    <carbon-logo-github />
-  </a>
+<div class="m-6 flex gap-2 fixed bottom-0 right-0 flex-col items-end">
+      <div class="h-8 w-8">
+        <img src="/pm-logo.jpg" class="h-full w-full rounded-full"/>
+      </div>
+      <div class="h-12 w-24">
+        <img src="/ssa-logo-white.svg" class="h-full w-full"/>
+      </div>
 </div>
 
 <!--
@@ -56,11 +55,11 @@ image: /vyacheslav-koldovskyy.png
 - Ph.D, доцент
 - 20+ років в IT
 - SoftServe Academy Competence Manager
-- Спеціалізація на AI-augmented розробці
 - Certified Google Cloud Professional Architect
 - Ентузіаст Генеративного AI
 - Ютубер: [youtube.com/@programmingmentorua](https://www.youtube.com/@programmingmentorua)
 - Блогер: [t.me/programmingmentor](https://t.me/programmingmentor)
+- Лінкедін: [koldovsky](https://www.linkedin.com/in/koldovsky/)
 
 ---
 layout: image-left
@@ -152,15 +151,26 @@ layout: center
 - Дороговизна
 - Повільність
 - Недостатньо кваліфікованих фахівців
-- Рішення роблять люди, які схильні до помилок
-- Складно давати імена :)
+- Складно давати імена сутностям :)
 
+---
+layout: center
+---
+
+# В чому основна проблема?
+
+<v-click>
+  Людський фактор
+</v-click>
+
+---
+layout: center
 ---
 
 # Що таке програмний код?
 
 <v-click>
-  Це думка розробника, записана мовою, яка зрозуміла йому та комп'ютеру.
+  Це думка розробника, записана мовою, яка зрозуміла йому та комп'ютеру
 </v-click>
 
 ---
@@ -783,7 +793,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="663,206,261,\_,-15"undefinedundefinedundefinedundefinedundefined>
+<v-drag pos="663,206,261,\_,-15"undefinedundefinedundefinedundefinedundefinedundefined>
 
   <div text-center text-3xl border border-main rounded>
     Double-click me!
