@@ -171,7 +171,7 @@ layout: center
 layout: center
 ---
 
-# В чому основна проблема?
+# В чому основна проблема IT?
 
 <v-click>
   Людський фактор
@@ -187,6 +187,8 @@ layout: center
   Це думка розробника, записана мовою, яка зрозуміла йому та комп'ютеру
 </v-click>
 
+---
+layout: center
 ---
 
 # Коли були створені концепції мов програмування, якими ми користуємося сьогодні?
@@ -238,7 +240,62 @@ image: /art-science-craft-02.gif
 - ОС, мережі, контейнери, хмарні платформи
 
 ---
+layout: center
+---
 
+# Епоха AI в програмній інженерії
+
+---
+layout: image
+image: /ai-adoption-0-100.png
+backgroundSize: contain
+---
+
+# Де ми зараз?
+
+<style>
+h1 {
+  color: black;
+}
+</style>
+
+---
+layout: image
+image: /ai-adoption-0-100-detailed.png
+backgroundSize: contain
+---
+
+# А тепер?
+
+<style>
+h1 {
+  color: black;
+}
+</style>
+
+---
+layout: image
+image: /sdlc.png
+backgroundSize: contain
+---
+
+---
+layout: image
+image: /coderabbit.gif
+backgroundSize: contain
+---
+
+---
+layout: image
+image: /copilot-in-github.gif
+backgroundSize: contain
+---
+
+---
+layout: image
+image: /ms-copilot-optimization.png
+backgroundSize: contain
+---
 
 ---
 layout: center
@@ -781,7 +838,7 @@ square: -44,0,0,0
 
 ---
 dragPos:
-  square: 0,-233,0,0
+  square: -21,0,0,0
 ---
 
 # Draggable Elements
@@ -807,7 +864,7 @@ Double-click on the draggable elements to edit their positions.
 </v-drag>
 ```
 
-<v-drag pos="663,206,261,\_,-15"undefinedundefinedundefinedundefinedundefinedundefined>
+<v-drag pos="663,206,261,\_,-15"undefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefinedundefined>
 
   <div text-center text-3xl border border-main rounded>
     Double-click me!
