@@ -33,13 +33,27 @@ overviewSnapshots: true
 </div>
 
 <div class="m-6 flex gap-2 fixed bottom-0 right-0 flex-col items-end">
-      <div class="h-8 w-8">
-        <img src="/pm-logo.jpg" class="h-full w-full rounded-full"/>
-      </div>
-      <div class="h-12 w-24">
-        <img src="/ssa-logo-white.svg" class="h-full w-full"/>
-      </div>
+  <a href="https://www.youtube.com/c/programmingmentorua">
+    <div class="h-8 w-8">
+      <img src="/pm-logo.jpg" class="h-full w-full rounded-full"/>
+    </div>
+  </a>
+  <a href="https://career.softserveinc.com/uk-ua/softserve-academy">
+    <div class="h-12 w-24">
+      <img src="/ssa-logo-white.svg" class="h-full w-full"/>
+    </div>
+  </a>
 </div>
+
+<style>
+  a {
+    text-decoration: none;
+    border: 2.4px solid transparent;
+  }
+  a:hover {
+    border-color: var(--slidev-theme-primary);
+  }
+</style>
 
 <!--
 The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
